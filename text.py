@@ -13,7 +13,7 @@ class student:
             self.brand='hp'
             self.cpu='i5'
             self.ram=8
-        def show(self):
+        def show1(self):
             print(self.brand,self.cpu,self.ram)
     def info(cls):
         return cls.me
